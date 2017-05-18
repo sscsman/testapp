@@ -8,7 +8,7 @@
       -if @likeds.blank?
         %p.black お気に入りした講義はまだありません。
       -else
-        -@likeds.each do |a|
+        -@likeds.reverse.each do |a|
           .eachlikes.eachelem
             %a{:class => "courselink", :href => "/courses/#{a}"}
               .alert.alert-warning
@@ -24,7 +24,7 @@
       -if @createds.blank?
         %p.black  登録した講義はまだありません。
       -else
-        -@createds.each do |c|
+        -@createds.reverse.each do |c|
           .eachcommenteds.eachelem
             %a{:class => "courselink", :href => "/courses/#{c}"}
               .alert.alert-info
@@ -39,7 +39,7 @@
       -if @commenteds.blank?
         %p.black コメントした講義はまだありません。
       -else
-        -@commenteds.each do |b|
+        -@commenteds.reverse.each do |b|
           .eachcommenteds.eachelem
             - @comfind = Comment.find(b.to_i)
             %a{:class => "courselink", :href => "/courses/#{@comfind.courseid}"}
