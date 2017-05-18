@@ -27567,3 +27567,112 @@ Processing by MypageController#index as HTML
   Rendered mypage/index.html.haml within layouts/application (199.6ms)
   Rendered layouts/_navbar.html.haml (2.2ms)
 Completed 200 OK in 932ms (Views: 925.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/mypage/index" for ::1 at 2017-05-18 13:58:30 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MypageController#index as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered mypage/index.html.haml within layouts/application (12615.1ms)
+Completed 500 Internal Server Error in 13028ms (ActiveRecord: 4.2ms)
+
+ActionView::Template::Error (Invalid mixin "======".):
+    1: = stylesheet_link_tag "css/mypageindex", :media => "all"
+    2: %h1 Mypage
+    3: 
+    4: .mypage_outer
+  app/assets/stylesheets/css/courses.sass:71
+  app/views/mypage/index.html.haml:1:in `_app_views_mypage_index_html_haml__1221844177107004904_70100605192320'
+
+
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.3ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.8ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (663.7ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (711.4ms)
+
+
+Started GET "/mypage/index" for ::1 at 2017-05-18 14:01:31 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (15.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MypageController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered mypage/index.html.haml within layouts/application (1330.4ms)
+Completed 500 Internal Server Error in 1621ms (ActiveRecord: 17.9ms)
+
+ActionView::Template::Error (Invalid mixin "======".):
+    1: = stylesheet_link_tag "css/mypageindex", :media => "all"
+    2: %h1 Mypage
+    3: 
+    4: .mypage_outer
+  app/assets/stylesheets/css/courses.sass:71
+  app/views/mypage/index.html.haml:1:in `_app_views_mypage_index_html_haml___1363585653376264197_70285179695940'
+
+
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.0ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.3ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (533.6ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (593.2ms)
+
+
+Started GET "/" for ::1 at 2017-05-18 14:01:34 +0900
+Processing by RegistrationController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+Redirected to http://localhost:3000/mypage/index
+Filter chain halted as :check rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/mypage/index" for ::1 at 2017-05-18 14:01:34 +0900
+Processing by MypageController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered mypage/index.html.haml within layouts/application (216.3ms)
+Completed 500 Internal Server Error in 227ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (Invalid mixin "======".):
+    1: = stylesheet_link_tag "css/mypageindex", :media => "all"
+    2: %h1 Mypage
+    3: 
+    4: .mypage_outer
+  app/assets/stylesheets/css/courses.sass:71
+  app/views/mypage/index.html.haml:1:in `_app_views_mypage_index_html_haml___1363585653376264197_70285179695940'
+
+
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (25.4ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (65.0ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.2ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/shindenryuusei/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (109.0ms)
+
+
+Started GET "/mypage/index" for ::1 at 2017-05-18 14:03:36 +0900
+Processing by MypageController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  Rendered mypage/index.html.haml within layouts/application (776.7ms)
+  Rendered layouts/_navbar.html.haml (70.6ms)
+Completed 200 OK in 1527ms (Views: 1517.2ms | ActiveRecord: 7.2ms)
