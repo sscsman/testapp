@@ -1,0 +1,41 @@
+/* line 1, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/mypageindex.css.sass */
+.mypage_outer {
+  background-color: rgba(255, 255, 255, 0.9);
+  min-height: 1000px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 9, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/mypageindex.css.sass */
+.mypage_outer .courselink {
+  display: block;
+}
+/* line 11, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/mypageindex.css.sass */
+.mypage_outer .eachelem {
+  padding: 6px;
+}
+/* line 13, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/mypageindex.css.sass */
+.mypage_outer .eachelem .coursename {
+  font-size: 20px;
+}
+/* line 15, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/mypageindex.css.sass */
+.mypage_outer .eachelem .messages {
+  font-size: 16px;
+}
+/* line 17, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/mypageindex.css.sass */
+.mypage_outer .alert {
+  margin-bottom: 0px !important;
+}
+/* line 19, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/mypageindex.css.sass */
+.mypage_outer .clear {
+  clear: both;
+}
+/* line 21, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/mypageindex.css.sass */
+.mypage_outer .black {
+  color: black;
+}
+/* line 24, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/mypageindex.css.sass */
+.mypage_outer legend {
+  color: #2b3e50;
+}

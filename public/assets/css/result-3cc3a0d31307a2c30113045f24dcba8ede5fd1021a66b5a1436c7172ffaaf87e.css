@@ -1,0 +1,31 @@
+/* line 1, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/result.css.sass */
+h1.serchfor {
+  margin-bottom: 50px;
+}
+
+/* line 4, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/result.css.sass */
+.result_outer a.btn {
+  text-align: left;
+  box-shadow: 0px 0px 5px 0px #5bc0de;
+  margin-bottom: 30px;
+}
+/* line 8, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/result.css.sass */
+.result_outer .eachresult {
+  border-radius: 10px;
+}
+/* line 10, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/result.css.sass */
+.result_outer .eachresult span {
+  display: inline;
+}
+/* line 12, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/result.css.sass */
+.result_outer .eachresult .rcourse {
+  font-size: 30px;
+}
+/* line 14, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/result.css.sass */
+.result_outer .eachresult .rteacher {
+  font-size: 30px;
+}
+/* line 16, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/result.css.sass */
+.result_outer .eachresult .firstrow {
+  border-bottom: 1px solid white;
+}

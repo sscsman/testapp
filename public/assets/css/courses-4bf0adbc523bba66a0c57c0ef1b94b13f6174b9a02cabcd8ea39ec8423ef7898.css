@@ -1,0 +1,215 @@
+/* line 4, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.fstrw {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 7, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.information {
+  background-color: #e8fdff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 17, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.information .bigg {
+  font-size: 20px;
+}
+/* line 19, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.information .row {
+  border-bottom: solid 1px black;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* line 24, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.information .row p.col-xs-3 {
+  font-size: 12px;
+}
+/* line 26, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.information .row p.col-xs-9 {
+  text-align: right;
+}
+
+/* line 29, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.charts {
+  background-color: #e8fff0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 49, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.sliders {
+  margin-left: 100px;
+  width: 250px;
+}
+
+/* line 53, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.postcoms {
+  margin: 5px auto;
+  padding: 20px;
+}
+
+/* line 56, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.comms {
+  margin: 300px auto;
+  padding: 5px 0;
+  background-color: rgba(224, 224, 224, 0.55);
+  width: 95%;
+}
+
+/* line 61, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.eachcom {
+  margin: 10px 10px;
+  padding: 10px;
+  background-color: rgba(210, 210, 210, 0.5);
+}
+/* line 66, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.eachcom .votes form {
+  display: inline;
+}
+/* line 68, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.eachcom .votes button {
+  display: inline;
+}
+/* line 70, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.eachcom label {
+  font-size: 16px;
+}
+
+/* line 72, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.rateinner {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fffbe8;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+/* line 81, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.rateinner .actions {
+  float: right;
+  margin-top: 15px;
+}
+
+/* line 84, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.page {
+  background-color: rgba(255, 248, 248, 0.89);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  color: #2b3e50;
+  padding: 15px;
+}
+
+/* line 93, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.rightblock {
+  float: right;
+}
+
+/* line 95, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.clear {
+  clear: both;
+}
+
+/* line 97, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+canvas {
+  height: auto !important;
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+/* line 102, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.left {
+  float: left;
+}
+
+/* line 104, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.right {
+  float: right;
+}
+
+/* line 106, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.sliders {
+  clear: both;
+}
+
+/* line 109, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+#comment_message {
+  width: 100%;
+  height: 10em;
+}
+
+/* line 113, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+legend {
+  color: #2b3e50;
+}
+
+/* line 115, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.comme {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* line 119, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.commentblock {
+  background-color: #e8f0ff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+/* line 127, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.postcoms {
+  background-color: #ffe8e8;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* line 135, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.eachcom {
+  background-color: #e8f5ff;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+/* line 139, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.eachcom .det {
+  font-size: 14px;
+}
+
+/* line 142, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.votebtn {
+  font-size: 9px;
+}
+
+/* line 146, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.votes button {
+  padding: 2px 4px !important;
+  background-color: #8699bb !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 154, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/courses.sass */
+.ttt {
+  font-size: 22px;
+}

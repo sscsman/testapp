@@ -1,0 +1,19 @@
+/* line 1, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/newcourse.css.sass */
+legend {
+  font-size: 50px;
+}
+
+/* line 3, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/newcourse.css.sass */
+.fieldset {
+  max-width: 800px;
+  padding: 50px;
+  background-color: #546575;
+}
+/* line 7, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/newcourse.css.sass */
+.fieldset .field.form-group {
+  padding-bottom: 70px;
+}
+/* line 9, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/newcourse.css.sass */
+.fieldset .field.form-group .control-label {
+  font-size: 16px;
+}

@@ -1,0 +1,83 @@
+/* line 1, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+p.notice {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 4, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+p.alert {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 7, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+.container {
+  width: 100% !important;
+  padding: 0;
+  margin-top: -20px;
+}
+
+/* line 12, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+.firstbox {
+  width: 100%;
+  height: 700px;
+  background-image: url(/assets/back-f41094dac8e704113548a386d089748545b1529bb1c8aaf4213fa54502085003.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+/* line 21, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+.tit {
+  font-size: 40px;
+}
+
+/* line 24, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+.ullabus {
+  font-size: 60px;
+}
+
+/* line 27, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+.box1 {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+/* line 30, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+.box1 p {
+  text-align: center;
+}
+
+/* line 33, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+.loginb {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 50px;
+}
+
+/* line 38, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+.registb {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 50px;
+}
+
+/* line 44, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+.box2 {
+  margin-top: 100px;
+  text-align: center;
+}
+/* line 47, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+.box2 button {
+  padding: 10px;
+}
+
+/* line 50, /Users/shindenryuusei/testapp/app/assets/stylesheets/css/toppage.css.sass */
+.toppagebtn {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
